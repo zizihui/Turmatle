@@ -1,0 +1,7 @@
+#windows验证模型效果，改后面的图片路径
+#预训练cmd
+p2t predict -l en,ch_sim --formula-ocr-config "{\"model_name\":\"mfr-pro-1.5\",\"model_backend\":\"pytorch\",\"model_dir\":\"new_models\"}" --file-type formula -i "D:\Turmatle\turmatle-main\test\test_l_t\test_images_l_t\4.png"
+
+#微调cmd 在turmatle-main文件夹下
+p2t predict -l en,ch_sim --formula-ocr-config "{\"model_name\":\"mfr-pro-1.5\",\"model_backend\":\"pytorch\",\"model_dir\":\"new_models_finetuning\"}" --file-type formula -i "D:\Turmatle\turmatle-main\test\test_l_t\test_images_l_t\4.png"
+p2t predict -l en,ch_sim --formula-ocr-config "{\"model_name\":\"mfr-pro-1.5\",\"model_backend\":\"pytorch\",\"model_dir\":\"new_models_finetuning\"}" --file-type formula -i "D:\Turmatle\turmatle-main\test\dev_test\c_r\cr_special65.png"
