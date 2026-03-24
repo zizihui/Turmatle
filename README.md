@@ -12,18 +12,20 @@
 主要目录说明如下：
 - `geom`：基础几何图元类与绘图逻辑
 - `create_data`：预训练数据生成脚本
-- `datas`：预训练数据保存目录
+- `datas`：预训练数据保存目录[见huggingface]
 - `create_fine_data`：微调数据生成脚本
-- `datas_finetuning`：微调数据保存目录
+- `datas_finetuning`：微调数据保存目录[见huggingface]
 - `create_val_data`：测试数据生成脚本
-- `val_datas`：测试数据保存目录
-- `P2T-Trainer`：模型训练与预测代码
+- `val_datas`：测试数据保存目录[见huggingface]
+- `P2T-Trainer`：模型训练与预测代码[见huggingface]
 - `val_model_result`：预训练模型测试结果分析
 - `val_finetune_model_result`：微调模型测试结果分析
 - `visualization_compare`：预训练模型与微调模型结果对比代码
 - `visualize_results.py`：绘制综合对比图
 - `draw_explore`：手绘图形预处理、推理与重绘实验
 - `inference.txt`：推理相关命令记录
+- `new_models`：预训练模型[见huggingface：https://huggingface.co/zi-hui/Turmatle_pretrain_model/tree/main]
+- `new_models_finetuning`微调后的模型[见huggingface:https://huggingface.co/zi-hui/Turmatle_finetune_model/tree/main]
 
 ### 2.2 `turmatle_pro`
 `turmatle_pro` 是识别结果可视化与增强绘制系统，主要用于将识别得到的结构化几何描述重新组织为可演示、可标注、可高亮的绘图过程。
