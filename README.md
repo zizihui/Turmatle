@@ -12,11 +12,11 @@
 主要目录说明如下：
 - `geom`：基础几何图元类与绘图逻辑
 - `create_data`：预训练数据生成脚本
-- `datas`：预训练数据保存目录[见huggingface]
+- `datas`：预训练数据保存目录[见huggingface：https://huggingface.co/datasets/zi-hui/Turmatle_pretrain_datasets/tree/main]
 - `create_fine_data`：微调数据生成脚本
-- `datas_finetuning`：微调数据保存目录[见huggingface]
+- `datas_finetuning`：微调数据保存目录[见huggingface：https://huggingface.co/datasets/zi-hui/Turmatle_finetune_datasets]
 - `create_val_data`：测试数据生成脚本
-- `val_datas`：测试数据保存目录[见huggingface]
+- `val_datas`：测试数据保存目录[见huggingface：https://huggingface.co/datasets/zi-hui/Turmatle_test_datasets]
 - `P2T-Trainer`：模型训练与预测代码[见huggingface]
 - `val_model_result`：预训练模型测试结果分析
 - `val_finetune_model_result`：微调模型测试结果分析
