@@ -17,7 +17,7 @@
 - `datas_finetuning`：微调数据保存目录[见huggingface：https://huggingface.co/datasets/zi-hui/Turmatle_finetune_datasets]
 - `create_val_data`：测试数据生成脚本
 - `val_datas`：测试数据保存目录[见huggingface：https://huggingface.co/datasets/zi-hui/Turmatle_test_datasets]
-- `P2T-Trainer`：模型训练与预测代码[见huggingface]
+- `P2T-Trainer`：模型训练与预测代码[见huggingface：https://huggingface.co/zi-hui/train]
 - `val_model_result`：预训练模型测试结果分析
 - `val_finetune_model_result`：微调模型测试结果分析
 - `visualization_compare`：预训练模型与微调模型结果对比代码
